@@ -69,5 +69,5 @@ begin
   end
 rescue StandardError
   # If the input cannot be converted into a float, tell the user that they need to input the correct numbers
-  puts 'Please enter 0.25, 0.5 or 1'
+  puts 'Please enter a valid input'
 end
